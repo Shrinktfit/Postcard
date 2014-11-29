@@ -93,6 +93,15 @@
                                     <action selector="sendMailButtonPressed:" destination="gPm-98-XzY" eventType="touchUpInside" id="OOF-5l-58i"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6AE-in-f72">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="190" width="169" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4C-Rl-jYn">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -110,6 +119,7 @@
                                 <exclude reference="wZl-7g-xwh"/>
                                 <exclude reference="0hs-b1-hUh"/>
                                 <exclude reference="66n-se-rjg"/>
+                                <exclude reference="6AE-in-f72"/>
                                 <exclude reference="y4C-Rl-jYn"/>
                             </mask>
                         </variation>
@@ -119,6 +129,7 @@
                                 <include reference="wZl-7g-xwh"/>
                                 <include reference="0hs-b1-hUh"/>
                                 <include reference="66n-se-rjg"/>
+                                <include reference="6AE-in-f72"/>
                                 <include reference="y4C-Rl-jYn"/>
                             </mask>
                         </variation>
@@ -128,6 +139,7 @@
                         <outlet property="enterNameTextField" destination="wZl-7g-xwh" id="lXm-Yg-KP6"/>
                         <outlet property="mailButton" destination="66n-se-rjg" id="vdV-pc-tTc"/>
                         <outlet property="messageLabel" destination="y4C-Rl-jYn" id="AHN-Ea-INS"/>
+                        <outlet property="nameLabel" destination="6AE-in-f72" id="FMe-bK-lPx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dB-uL-PD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
